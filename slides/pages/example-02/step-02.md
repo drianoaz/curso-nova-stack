@@ -1,5 +1,5 @@
 ---
-layout: statement
+layout: section
 ---
 
 ```html {all|4}
