@@ -14,9 +14,11 @@ React é uma biblioteca JavaScript para criar interfaces de usuário de modo dec
 -->
 
 ---
-layout: center
+layout: section
 ---
 # O React é não opinativo
+
+## e isso tem seus problemas
 
 <!--
 - Não diz exatamente como as aplicações devem ser construídas, não resolve todas as dores mencionadas anteriormente
