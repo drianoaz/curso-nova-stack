@@ -1,0 +1,1 @@
+- https://unicode.org/emoji/charts/emoji-list.html
