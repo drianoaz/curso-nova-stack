@@ -11,6 +11,7 @@ React é uma biblioteca JavaScript para criar interfaces de usuário de modo dec
 <!--
 - Por interfaces de usuário, queremos dizer os elementos que os usuários veem e interagem na tela.
 - o React dá funções úteis para construir a interface, mas deixa quem desenvolve escolher onde onde usar essas funções em seu aplicativo.
+- você pode dizer ao React o que deseja que aconteça com a interface do usuário, e o React descobrirá as etapas de como atualizar o DOM pra você.
 -->
 
 ---
