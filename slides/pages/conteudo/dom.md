@@ -81,7 +81,7 @@ src: ./pages/example-02/entry.md
 
 # HTML vs DOM
 
-![](example--html-vs-dom.png)
+![](/example--html-vs-dom.png)
 
 ---
 layout: section

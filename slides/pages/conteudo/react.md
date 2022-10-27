@@ -6,7 +6,7 @@ layout: center
 
 React é uma biblioteca JavaScript para criar interfaces de usuário de modo declarativo
 
-![](example--user-interface.png)
+![](/example--user-interface.png)
 
 <!--
 - Por interfaces de usuário, queremos dizer os elementos que os usuários veem e interagem na tela.

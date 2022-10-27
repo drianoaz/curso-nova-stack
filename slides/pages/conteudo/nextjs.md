@@ -16,7 +16,7 @@ title: Imagem Nextjs
 layout: image
 ---
 
-![](example--nextjs.png)
+![](/example--nextjs.png)
 
 <!--
 ### Sobre ser framework
