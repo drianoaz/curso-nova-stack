@@ -70,7 +70,3 @@ src: ./pages/conteudo/react.md
 ---
 src: ./pages/conteudo/nextjs.md
 ---
-
----
-
-# Teste

@@ -4,7 +4,8 @@ layout: center
 
 # O que é React?
 
-React é uma biblioteca JavaScript para criar interfaces de usuário de modo declarativo
+O React é uma biblioteca JavaScript declarativa, eficiente e flexível para criar interfaces com o usuário. 
+Ele permite compor UIs complexas a partir de pequenos e isolados códigos chamados “componentes”.
 
 ![](/example--user-interface.png)
 
@@ -13,6 +14,15 @@ React é uma biblioteca JavaScript para criar interfaces de usuário de modo dec
 - o React dá funções úteis para construir a interface, mas deixa quem desenvolve escolher onde onde usar essas funções em seu aplicativo.
 - você pode dizer ao React o que deseja que aconteça com a interface do usuário, e o React descobrirá as etapas de como atualizar o DOM pra você.
 -->
+
+---
+layout: center
+---
+# Vamos refazer nosso exemplo usando React
+
+---
+src: pages/example-03/entry.md
+---
 
 ---
 layout: section
