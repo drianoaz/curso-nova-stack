@@ -44,13 +44,17 @@ layout: center
 
 ![](/example--components.png)
 
-<!-- 
+---
+
+# Componentes
+
 - As interfaces podem ser divididas em blocos de construção menores chamados **componentes**
 - Os componentes permitem que você crie trechos de código reutilizáveis e independentes
 - São como peças de lego que combinamos pra formar coisas maiores
+- tudo na tela pode ser dividido em componentes
+- Os componentes podem ser tão pequenos quanto um botão ou tão grandes quanto uma página inteira
 - Essa separação permite permite que seu código seja mais simples de dar manutenção à medida que cresce
 porque conseguimos adicionar, atualizar e excluir componentes sem tocar no restante do nosso projeto
--->
 
 ---
 layout: image
@@ -72,6 +76,11 @@ layout: center
 ---
 
 ![](/meme--components.jpg)
+
+---
+src: pages/example-04/entry.md
+---
+
 
 
 

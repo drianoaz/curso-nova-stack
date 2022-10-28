@@ -26,6 +26,7 @@ layout: center
 - JSX é uma extensão de sintaxe para JavaScript
 - É parecido com HTML, com algumas poucas diferenças
 - JSX e React são duas coisas separadas
+- É possível utilizar React sem JSX
 - Os navegadores não entendem JSX por padrão
 - Precisamos de um compilador que irá converter o código JSX em JavaScript normal
 
