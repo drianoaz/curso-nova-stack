@@ -1,3 +1,9 @@
+---
+layout: section
+---
+
+```html {all|8|10}
+<!-- index.html -->
 <html>
   <body>
     <div id="app"></div>
@@ -13,3 +19,14 @@
     </script>
   </body>
 </html>
+```
+
+<style>
+code {
+  @apply text-sm !important;
+}
+</style>
+
+<!--
+- Tem que lembrar de mudar o type text/jsx
+-->
