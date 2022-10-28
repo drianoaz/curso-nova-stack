@@ -25,6 +25,57 @@ src: pages/example-03/entry.md
 ---
 
 ---
+layout: center
+---
+
+# Conceitos principais do React
+
+- Componentes
+- Propriedades
+- Estado
+
+<!--
+- Existem três conceitos principais do React com os quais você precisa estar familiarizado para começar a trabalhar com React.
+-->
+
+---
+
+# Componentes
+
+![](/example--components.png)
+
+<!-- 
+- As interfaces podem ser divididas em blocos de construção menores chamados **componentes**
+- Os componentes permitem que você crie trechos de código reutilizáveis e independentes
+- São como peças de lego que combinamos pra formar coisas maiores
+- Essa separação permite permite que seu código seja mais simples de dar manutenção à medida que cresce
+porque conseguimos adicionar, atualizar e excluir componentes sem tocar no restante do nosso projeto
+-->
+
+---
+layout: image
+image: example--components-tok01.png
+---
+
+---
+layout: image
+image: example--components-tok02.png
+---
+
+---
+layout: image
+image: example--components-tok03.png
+---
+
+---
+layout: center
+---
+
+![](/meme--components.jpg)
+
+
+
+---
 layout: section
 ---
 # O React é não opinativo
