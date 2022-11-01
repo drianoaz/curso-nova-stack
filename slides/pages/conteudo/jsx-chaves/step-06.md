@@ -6,16 +6,35 @@ layout: center
 
 <br />
 
-```jsx
-function currentDate() {
-  return new Date().toLocaleDateString();
-}
+```tsx
+const currencyFormatter = (number: number | null) => {
+  if (number === null) {
+    return '-';
+  }
 
-function TodoList() {
+  if (number === 0) {
+    return 'GRÁTIS';
+  }
+
+  return new Intl.NumberFormat('pt-BR', {
+    style: 'currency',
+    currency: 'BRL',
+  }).format(number);
+};
+
+function Foo() {
   const name = 'Yallison';
 
   return (
-    <h1>{name.toUpperCase()} - Lista de tarefas - {currentDate()}</h1>
+    <>
+      <h1>{name}</h1>
+      <h2>
+        {currencyFormatter(null)} -
+        {currencyFormatter(0)} -
+        {currencyFormatter(1000)} -
+        {currencyFormatter(1000 + 1000)}
+      </h2>
+    </>
   );
 }
 ```

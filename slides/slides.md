@@ -12,6 +12,13 @@ Uma visão prática sobre a nossa stack de front-end
 
 # Recados importantes
 
+- Vocês podem me interromper a qualquer momento
+- Se eu falar algo errado ou impreciso, por favor, me corrijam
+- Eu sei que vai ter coisas que vocês já sabem, então me ajudem a complementar o conteúdo
+- Os exemplos começarão extremamente simples
+- Eles ficarão mais complexos conforme avançamos
+- Os conhecimentos das etapas anteriores serão utilizados nas próximas etapas. Não deixe eu avançar para a próxima etapa caso você tenha alguma dúvida
+
 ---
 
 # Por que estamos aqui?
