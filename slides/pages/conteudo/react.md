@@ -85,6 +85,10 @@ src: pages/example-04/entry.md
 src: pages/conteudo/jsx-regras/entry.md
 ---
 
+---
+src: pages/conteudo/jsx-chaves/entry.md
+---
+
 
 
 
