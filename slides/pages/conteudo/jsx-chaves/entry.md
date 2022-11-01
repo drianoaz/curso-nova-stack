@@ -54,3 +54,7 @@ src: pages/conteudo/jsx-chaves/step-04.md
 src: pages/conteudo/jsx-chaves/step-05.md
 ---
 
+---
+src: pages/conteudo/jsx-chaves/step-06.md
+---
+

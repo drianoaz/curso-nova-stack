@@ -2,11 +2,8 @@
 layout: center
 ---
 
-# Você pode usar um valor do JavaScript com `{}`
-
-<br />
-
-```tsx
+```tsx {1-15|17-31} {maxHeight: '450px'}
+// copiado do site b2b
 const currencyFormatter = (number: number | null) => {
   if (number === null) {
     return '-';
