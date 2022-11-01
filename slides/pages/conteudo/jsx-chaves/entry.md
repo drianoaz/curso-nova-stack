@@ -58,3 +58,73 @@ src: pages/conteudo/jsx-chaves/step-05.md
 src: pages/conteudo/jsx-chaves/step-06.md
 ---
 
+---
+layout: center
+---
+
+# Você só pode usar chaves de duas maneiras dentro do JSX 🤓
+
+- Como texto diretamente dentro de uma tag JSX: `<h1>{name} - Lista de tarefas<h1>`
+- Como atributos imediatamente após o sinal `=`: `src={avatar}` irá ler a variável avatar
+
+## Pontos de atenção
+
+- `<{tag}>Yallison - Lista de tarefas</{tag}>` não funciona
+- `src="{avatar}"` passará a string `"{avatar}"` como atributo e não uma variável
+
+---
+layout: center
+---
+
+![](/giphy--kiko.gif)
+
+---
+layout: center
+---
+
+# Usando dupla chaves: CSS e outros objetos em JSX 🤡
+
+- Além de strings, números e outras expressões JavaScript, você utilizar objetos em JSX. 
+- Os objetos também são indicados com chaves, como `{ name: "Hedy Lamarr", inventions: 5 }`
+- para passar um objeto JS em JSX, você deve envolver o objeto em outro par de chaves: `person={{ name: "Hedy Lamarr", inventions: 5 }}`
+
+---
+src: pages/conteudo/jsx-chaves/step-07.md
+---
+
+---
+layout: center
+---
+
+# Juntando tudo até aqui
+
+---
+src: pages/conteudo/jsx-chaves/step-08.md
+---
+
+---
+layout: center
+---
+
+<img src="/example--sumitomo.png" style="height: 450px" />
+
+---
+layout: image-right
+image: giphy--cat-typing.gif
+---
+
+# Exercícios
+
+
+
+> ## [abre.ai/exercicio-02](https://abre.ai/exercicio-02)
+> 
+> Corrija os erros existentes nesse arquivo
+
+<!-- 
+- https://gist.github.com/drianoaz/78145700ae0e1391c48bab8839286243
+-->
+
+> ## [abre.ai/exercicio-03](https://abre.ai/exercicio-03)
+> 
+> Deixe o conteúdo desse arquivo dinâmico

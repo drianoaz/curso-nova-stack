@@ -1,0 +1,41 @@
+<html>
+  <body>
+    <div id="app"></div>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/jsx">
+      const app = document.getElementById("app")
+
+      const person = {
+        name: 'Yallison',
+        theme: {
+          backgroundColor: 'black',
+          color: 'pink'
+        }
+      };
+    
+      function TodoList() {
+        return (
+          <div style="{person.theme}">
+            <h1>{person} - Lista de tarefas</h1>
+            <img
+              className="avatar"
+              src="https://ca.slack-edge.com/TCB3Z2SNM-U02EEJTLYCS-908ca906fccc-192"
+              alt="Yallison"
+            />
+            <ul>
+              <li>Improve the videophone</li>
+              <li>Prepare aeronautics lectures</li>
+              <li>Work on the alcohol-fuelled engine</li>
+            </ul>
+          </div>
+        );
+      }
+    
+      ReactDOM.render(<TodoList />, app)
+    </script>
+  </body>
+</html>

@@ -41,3 +41,7 @@ code {
   @apply text-xl !important;
 }
 </style>
+
+<!--
+- Apesar de você poder fazer qualquer coisa que o JavaScript faz dentro das `{}`, use o bom senço e lembre que alguém dará manutenção naquilo no futuro
+-->
