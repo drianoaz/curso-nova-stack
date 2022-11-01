@@ -1,15 +1,21 @@
-# Um componente é uma função que retorna elementos da interface
+# Retorne apenas um elemento
+
 <br />
-```html {all|4-6}
-<script type="text/jsx">
-  const app = document.getElementById("app");
 
-  function header() {
-    // aqui vamos retornar elementos
-  }
-
-  ReactDOM.render(<h1>Hello World</h1>, app);
-</script>
+```jsx
+// isso está quebrado
+function Header() {
+  return (
+    <h1>Hello World</h1>
+    <h2>Foo</h2>
+    <br>
+    <img 
+      src="https://i.imgur.com/yXOvdOSs.jpg" 
+      alt="Hedy Lamarr"
+      class="photo"
+    >
+  )
+}
 ```
 
 <style>
