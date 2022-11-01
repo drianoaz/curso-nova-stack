@@ -1,8 +1,14 @@
+---
+layout: center
+---
+
 # Você pode definir componentes React dentro uns dos outros como faria com elementos HTML normais.
 
-<br />
+---
+layout: center
+---
 
-```html {all|10}
+```jsx {all|2-8|10-17|18-19} {maxHeight:'450px'}
 <script type="text/jsx">
   const app = document.getElementById("app")
 
@@ -16,6 +22,7 @@
     return (
       <div>
         <Header />
+        {/* Outros componentes poderiam ser adicionados aqui */}
       </div>
     );
   }
@@ -29,7 +36,3 @@ code {
   @apply text-xl !important;
 }
 </style>
-
-<!-- 
-- para diferenciar do HTML e JavaScript simples.
--->

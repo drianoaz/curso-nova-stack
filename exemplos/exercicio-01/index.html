@@ -9,22 +9,36 @@
     <script type="text/jsx">
       const app = document.getElementById("app")
     
+      function bio() {
+        return (
+          <div class="intro">
+            <h1>Welcome to my website!</h1>
+          </div>
+          <p class="summary">
+            You can find my thoughts here.
+            <br><br>
+            <b>And <i>pictures</b></i> of scientists!
+          </p>
+        );
+      }
+
+      
       function Header() {
         return (
           <h1>Hello World</h1>
         )
       }
 
-      function HomePage() {
+      function homePage() {
         return (
           <div>
             <Header />
-            {/* Outros componentes poderiam ser adicionados aqui */}
+            <bio />
           </div>
         )
       }
     
-      ReactDOM.render(<HomePage />, app)
+      ReactDOM.render(homePage, app)
     </script>
   </body>
 </html>

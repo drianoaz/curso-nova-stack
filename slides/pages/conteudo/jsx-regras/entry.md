@@ -20,7 +20,7 @@ src: ./pages/conteudo/jsx-regras/step-03.md
 layout: center
 ---
 
-# Por que podemos retornar apenas uma tag? <twemoji-thinking-face />
+# Por que apenas um elemento? <twemoji-thinking-face />
 
 - JSX se parece com HTML, mas por baixo dos panos ele é transformado em objetos JavaScript
 - Você não pode retornar dois objetos ao mesmo tempo em uma função sem definir eles dentro de um array
@@ -46,3 +46,18 @@ layout: center
 - `class` é uma palavra reservada no JavaScript, é por isso que devemos usar `className` ao invés de `class`
 - Por razões históricas os atributos `aria-*` e `data-*` são escritos utilizando `-` e não CamelCase
 
+---
+layout: image-right
+image: giphy--cat-typing.gif
+---
+
+# Exercício
+
+Corrija os erros existentes nesse arquivo
+
+## [abre.ai/exercicio-01](https://abre.ai/exercicio-01)
+
+<!-- 
+- caso não consigam acessar, enviar link correto
+- https://gist.github.com/drianoaz/d77f426b3a46be2fcad8b467fa8982c0
+-->
