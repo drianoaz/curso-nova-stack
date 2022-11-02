@@ -36,7 +36,8 @@ layout: center
 - Vamos imaginar que o front-end faz uma request para o backend
 - nessa request o back retorna pra gente o nome da pessoa e o ID da imagem que precisa ser exibida
 - O componente Avatar será criado de forma a saber exibir uma imagem a partir das informações que estamos passando
-- Todas as imagens serão um quadrado perfeito
+- Todas as imagens serão um círculo perfeito
+- Vamos permitir que sejam exibidas imagens de tamanhos diferentes
 - O front-end conhece a URL base para exibir a imagem corretamente, então precisamos apenas do ID para exibir a imagem
 - Precisamos fornecer a descrição correta da tag de imagem por conta dos recursos de acessibilidade
 
@@ -87,6 +88,8 @@ src: pages/conteudo/jsx-props/step-10.md
 ---
 
 ---
+layout: center
+---
 
 # Componentes com filhos 👶
 
@@ -117,3 +120,18 @@ src: pages/conteudo/jsx-props/step-12.md
 ---
 src: pages/conteudo/jsx-props/step-13.md
 ---
+
+---
+layout: center
+---
+
+# Recapitulando 🤓
+
+- Para passar props, faça igual faria com atributos HTML
+- Para ler props, use a sintaxe de desestruturação `function Avatar({ person, size })`.
+- Você pode especificar um valor padrão como `size = 100`
+- Você pode encaminhar todos os dados de um objeto fazendo spread `<Avatar {...props} />`, mas não use demais!
+- Você pode colocar componentes dentro de componentes `<Card><Avatar /></Card>` e isso ficará disponível como uma prop chamada `children`
+
+
+

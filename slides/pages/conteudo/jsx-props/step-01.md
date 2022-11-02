@@ -27,12 +27,11 @@ function Profile() {
 
 <style>
 code {
-  @apply text-xl !important;
+  @apply text-sm !important;
 }
 </style>
 
 <!--
 - Por exemplo, `className`, `src`, `alt`, `width` e `height` são algumas das props que você pode passar para uma tag `<img>`
 - As props que você pode passar para uma tag `<img>` são predefinidas pelo padrão do HTML
-- Mas você pode passar quaisquer adereços para seus próprios componentes, como `<Avatar>`, para personalizá-los. 
 -->
