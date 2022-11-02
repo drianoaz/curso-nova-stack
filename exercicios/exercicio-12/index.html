@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/jsx">
+      const app = document.getElementById("app")
+
+      const recipes = [{
+        id: 'greek-salad',
+        name: 'Greek Salad',
+        ingredients: ['tomatoes', 'cucumber', 'onion', 'olives', 'feta']
+      }, {
+        id: 'hawaiian-pizza',
+        name: 'Hawaiian Pizza',
+        ingredients: ['pizza crust', 'pizza sauce', 'mozzarella', 'ham', 'pineapple']
+      }, {
+        id: 'hummus',
+        name: 'Hummus',
+        ingredients: ['chickpeas', 'olive oil', 'garlic cloves', 'lemon', 'tahini']
+      }];
+      
+      function RecipeList() {
+        return (
+          <div>
+            <h1>Recipes</h1>
+          </div>
+        );
+      }
+    
+      ReactDOM.render(<RecipeList />, app)
+    </script>
+  </body>
+</html>
