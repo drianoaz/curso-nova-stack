@@ -82,3 +82,26 @@ src: pages/conteudo/jsx-props/step-08.md
 src: pages/conteudo/jsx-props/step-09.md
 ---
 
+---
+src: pages/conteudo/jsx-props/step-10.md
+---
+
+---
+
+# Componentes com filhos 👶
+
+É comum aninhar tags no HTML:
+
+```html
+<div>
+  <img />
+</div>
+```
+
+Às vezes, você desejará aninhar seus próprios componentes da mesma maneira:
+
+```jsx
+<Card>
+  <Avatar />
+</Card>
+```
