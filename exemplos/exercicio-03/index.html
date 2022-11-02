@@ -1,0 +1,58 @@
+<html>
+  <body>
+    <div id="app"></div>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/jsx">
+      const app = document.getElementById("app")
+
+      const person = {
+        user: {
+          name: 'Sumitomo',
+          avatar: 'https://avatars.githubusercontent.com/u/13684131?v=4'
+        },
+        theme: {
+          backgroundColor: 'black',
+          color: 'pink'
+        },
+        tasks: [
+          {
+            title: 'Entregar o B2C até 30/02/2023',
+          },
+          {
+            title: 'Chorar em posição fetal',
+          },
+          {
+            title: 'Rir de desespero'
+          }
+        ]
+      };
+    
+      function TodoList() {
+        return (
+          <div style={{
+            backgroundColor: 'red',
+            color: 'pink'
+          }}>
+            <h1>SUMITOMO - Lista de tarefas</h1>
+            <img
+              className="avatar"
+              src="https://avatars.githubusercontent.com/u/13684131?v=4"
+              alt="Sumitomo"
+            />
+            <ul>
+              <li>Entregar o B2C até 30/02/2023</li>
+              <li>Chorar em posição fetal</li>
+              <li>Rir de desespero</li>
+            </ul>
+          </div>
+        );
+      }
+    
+      ReactDOM.render(<TodoList />, app)
+    </script>
+  </body>
+</html>

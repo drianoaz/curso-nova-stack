@@ -1,0 +1,58 @@
+<html>
+  <body>
+    <div id="app"></div>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/jsx">
+      const app = document.getElementById("app")
+
+      const baseUrl = 'https://i.imgur.com/';
+
+      const person = {
+        user: {
+          name: 'Sumitomo',
+          imageId: 'YLIGa44',
+          imageSize: 'l',
+        },
+        theme: {
+          backgroundColor: 'black',
+          color: 'pink'
+        },
+        tasks: [
+          {
+            title: 'Entregar o B2C até 30/02/2023',
+          },
+          {
+            title: 'Chorar em posição fetal',
+          },
+          {
+            title: 'Rir de desespero'
+          }
+        ]
+      };
+      
+      function TodoList() {
+        return (
+          <div style={person.theme}>
+            <h1>{person.user.name.toUpperCase()} - Lista de tarefas</h1>
+            <img
+              className="avatar"
+              src="baseUrl imageId imageSize.jpg"
+              alt={person.user.name}
+            />
+            <ul>
+              <li>{person.tasks[0].title}</li>
+              <li>{person.tasks[1].title}</li>
+              <li>{person.tasks[2].title}</li>
+            </ul>
+          </div>
+        );
+      }
+    
+      ReactDOM.render(<TodoList />, app)
+    </script>
+  </body>
+</html>

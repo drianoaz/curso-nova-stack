@@ -121,10 +121,20 @@ image: giphy--cat-typing.gif
 > 
 > Corrija os erros existentes nesse arquivo
 
-<!-- 
-- https://gist.github.com/drianoaz/78145700ae0e1391c48bab8839286243
--->
+<br />
 
 > ## [abre.ai/exercicio-03](https://abre.ai/exercicio-03)
 > 
 > Deixe o conteúdo desse arquivo dinâmico
+
+<br />
+
+> ## [abre.ai/exercicio-04](https://abre.ai/exercicio-04)
+> 
+> Faça a imagem ser exibida corretamente
+
+<!-- 
+- https://gist.github.com/drianoaz/78145700ae0e1391c48bab8839286243
+- https://gist.github.com/drianoaz/baf66cf0d03ad3739a32dfe574a951f8
+- https://gist.github.com/drianoaz/0b28c9df9bf8cf64674a6d9afe6e0432
+-->
