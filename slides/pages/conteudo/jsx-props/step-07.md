@@ -2,11 +2,7 @@
 layout: center
 ---
 
-# Tudo junto
-
-<br />
-
-```jsx
+```jsx {1-11|13-22|23-29|30-36} {maxHeight: '450px'}
 function Avatar({ person, size }) {
   return (
     <img
@@ -23,23 +19,23 @@ function Profile() {
   return (
     <div>
       <Avatar
-        size={100}
+        size={200}
         person={{ 
           name: 'Caetano', 
           imageId: 'X2lvzp5'
         }}
       />
       <Avatar
-        size={80}
+        size={150}
         person={{
           name: 'Elis', 
-          imageId: 'VhTQi'
+          imageId: 'Y5lgO8B'
         }}
       />
       <Avatar
-        size={50}
+        size={100}
         person={{ 
-          name: 'Belquior',
+          name: 'Belchior',
           imageId: 'Mc85TtX'
         }}
       />
@@ -50,6 +46,6 @@ function Profile() {
 
 <style>
 code {
-  @apply text-xl !important;
+  @apply text-lg !important;
 }
 </style>

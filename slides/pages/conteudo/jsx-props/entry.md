@@ -68,3 +68,13 @@ src: pages/conteudo/jsx-props/step-05.md
 src: pages/conteudo/jsx-props/step-06.md
 ---
 
+---
+layout: center
+---
+
+# Tudo junto
+
+---
+src: pages/conteudo/jsx-props/step-07.md
+---
+
