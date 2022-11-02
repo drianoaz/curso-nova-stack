@@ -89,6 +89,10 @@ src: pages/conteudo/jsx-regras/entry.md
 src: pages/conteudo/jsx-chaves/entry.md
 ---
 
+---
+src: pages/conteudo/jsx-props/entry.md
+---
+
 
 
 
