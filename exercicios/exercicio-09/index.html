@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/jsx">
+      const app = document.getElementById("app")
+
+      function Item({ name, importance }) {
+        return <li className="item">{name}</li>;
+      }
+      
+      function TaskList() {
+        return (
+          <section>
+            <h1>Lista de tarefas</h1>
+            <ul>
+              <Item 
+                importance={10} 
+                name="Entregar o B2C até 30/02/2023" 
+              />
+              <Item 
+                importance={0} 
+                name="Chorar em posição fetal" 
+              />
+              <Item 
+                importance={6} 
+                name="Rir de desespero" 
+              />
+            </ul>
+          </section>
+        );
+      }
+    
+      ReactDOM.render(<TaskList />, app)
+    </script>
+  </body>
+</html>
