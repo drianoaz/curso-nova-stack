@@ -2,6 +2,12 @@
 layout: center
 ---
 
+# Tudo junto
+
+---
+layout: center
+---
+
 ```jsx {1-11|13-22|23-29|30-36} {maxHeight: '450px'}
 function Avatar({ person, size }) {
   return (

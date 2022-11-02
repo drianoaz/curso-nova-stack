@@ -9,6 +9,8 @@ layout: center
 - As props são similares aos atributos do HTML
 - Você pode passar qualquer valor por eles, incluindo strings, números, objetos, arrays e funções
 - Podemos definir que props são as informações que você pode passar para uma tag JSX
+- As props permitem que você pense nos componentes de forma independente 
+- Pode te auxiliar a reaproveitar um mesmo componente em vários lugares
 
 ---
 src: pages/conteudo/jsx-props/step-01.md
@@ -69,12 +71,14 @@ src: pages/conteudo/jsx-props/step-06.md
 ---
 
 ---
-layout: center
----
-
-# Tudo junto
-
----
 src: pages/conteudo/jsx-props/step-07.md
+---
+
+---
+src: pages/conteudo/jsx-props/step-08.md
+---
+
+---
+src: pages/conteudo/jsx-props/step-09.md
 ---
 
