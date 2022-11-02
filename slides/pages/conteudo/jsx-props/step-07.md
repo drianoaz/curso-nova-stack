@@ -8,7 +8,7 @@ layout: center
 layout: center
 ---
 
-```jsx {1-11|13-22|23-29|30-36} {maxHeight: '450px'}
+```jsx {1-14|14-25|26-32|33-39} {maxHeight: '450px'}
 function Avatar({ person, size }) {
   return (
     <img
@@ -17,6 +17,9 @@ function Avatar({ person, size }) {
       alt={person.name}
       width={size}
       height={size}
+      style={{
+        borderRadius: '50%'
+      }}
     />
   );
 }

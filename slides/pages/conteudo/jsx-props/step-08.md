@@ -15,6 +15,9 @@ function Avatar({ person, size = 100 }) {
       alt={person.name}
       width={size}
       height={size}
+      style={{
+        borderRadius: '50%'
+      }}
     />
   );
 }

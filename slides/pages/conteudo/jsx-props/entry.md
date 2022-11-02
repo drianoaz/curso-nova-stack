@@ -105,3 +105,15 @@ src: pages/conteudo/jsx-props/step-10.md
   <Avatar />
 </Card>
 ```
+
+---
+src: pages/conteudo/jsx-props/step-11.md
+---
+
+---
+src: pages/conteudo/jsx-props/step-12.md
+---
+
+---
+src: pages/conteudo/jsx-props/step-13.md
+---
