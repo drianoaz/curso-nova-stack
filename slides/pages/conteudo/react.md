@@ -97,7 +97,9 @@ src: pages/conteudo/jsx-props/entry.md
 src: pages/conteudo/jsx-condicoes/entry.md
 ---
 
-
+---
+src: pages/conteudo/jsx-listas/entry.md
+---
 
 
 ---

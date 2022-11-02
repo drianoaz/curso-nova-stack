@@ -9,22 +9,45 @@
     <script type="text/jsx">
       const app = document.getElementById("app")
     
-      function Header() {
+      const people = [{
+        id: 0,
+        name: 'Creola Katherine Johnson',
+        profession: 'mathematician',
+      }, {
+        id: 1,
+        name: 'Mario José Molina-Pasquel Henríquez',
+        profession: 'chemist',
+      }, {
+        id: 2,
+        name: 'Mohammad Abdus Salam',
+        profession: 'physicist',
+      }, {
+        name: 'Percy Lavon Julian',
+        profession: 'chemist',  
+      }, {
+        name: 'Subrahmanyan Chandrasekhar',
+        profession: 'astrophysicist',
+      }];
+      
+      function List() {
+        const chemists = people.filter(item =>
+          item.profession === 'chemist'
+        );
+      
+        const listItems = chemists.map(item => {
+          return (
+            <li>
+              <b>{item.name}</b>: {' ' + item.profession + ' '}
+            </li>
+          );
+        });
+      
         return (
-          <h1>Hello World</h1>
-        )
-      }
-
-      function HomePage() {
-        return (
-          <div>
-            <Header />
-            {/* Outros componentes poderiam ser adicionados aqui */}
-          </div>
-        )
+          <ul>{listItems}</ul>
+        );
       }
     
-      ReactDOM.render(<HomePage />, app)
+      ReactDOM.render(<List />, app)
     </script>
   </body>
 </html>
