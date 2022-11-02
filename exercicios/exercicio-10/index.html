@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/jsx">
+      const app = document.getElementById("app")
+
+      function Drink({ name }) {
+        return (
+          <section>
+            <h1>{name}</h1>
+            <dl>
+              <dt>Part of plant</dt>
+              <dd>{name === 'tea' ? 'leaf' : 'bean'}</dd>
+              <dt>Caffeine content</dt>
+              <dd>{name === 'tea' ? '15–70 mg/cup' : '80–185 mg/cup'}</dd>
+              <dt>Age</dt>
+              <dd>{name === 'tea' ? '4,000+ years' : '1,000+ years'}</dd>
+            </dl>
+          </section>
+        );
+      }
+      
+      function DrinkList() {
+        return (
+          <div>
+            <Drink name="tea" />
+            <Drink name="coffee" />
+          </div>
+        );
+      }
+    
+      ReactDOM.render(<DrinkList />, app)
+    </script>
+  </body>
+</html>

@@ -37,3 +37,16 @@ layout: center
 - Podemos utilizar ternários, `{cond ? <A /> : <B />}`
 - Podemos utilizar expressões booleanadas `{cond && <A />}`
 - Utilizar esses atalhos é comum, mas você não precisa usá-los. Se preferir utilize `if`
+
+---
+layout: center
+---
+
+# Exercícios
+
+- Exercício 08
+- Exercício 09
+- Exercício 10
+
+
+
