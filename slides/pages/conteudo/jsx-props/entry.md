@@ -133,5 +133,13 @@ layout: center
 - Você pode encaminhar todos os dados de um objeto fazendo spread `<Avatar {...props} />`, mas não use demais!
 - Você pode colocar componentes dentro de componentes `<Card><Avatar /></Card>` e isso ficará disponível como uma prop chamada `children`
 
+---
+
+# Exercícios
+
+- Exercício 05
+- Exercício 06
+- Exercício 07
+
 
 
