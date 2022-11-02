@@ -134,6 +134,8 @@ layout: center
 - Você pode colocar componentes dentro de componentes `<Card><Avatar /></Card>` e isso ficará disponível como uma prop chamada `children`
 
 ---
+layout: center
+---
 
 # Exercícios
 
