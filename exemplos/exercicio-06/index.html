@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/jsx">
+      const app = document.getElementById("app")
+
+      function getImageUrl(imageId, size = 's') {
+        return (
+          'https://i.imgur.com/' +
+          imageId +
+          size +
+          '.jpg'
+        );
+      }
+      
+      function Avatar({ person, size }) {
+        return (
+          <img
+            className="avatar"
+            src={getImageUrl(person, 'b')}
+            alt={person.name}
+            width={size}
+            height={size}
+          />
+        );
+      }
+      
+      function Profile() {
+        return (
+          <Avatar
+            size={40}
+            person={{ 
+              name: 'Gregorio Y. Zara', 
+              imageId: '7vQD0fP'
+            }}
+          />
+        );
+      }
+    
+      ReactDOM.render(<Profile />, app)
+    </script>
+  </body>
+</html>
