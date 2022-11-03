@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/jsx">
+      const app = document.getElementById("app")
+
+      function getImageUrl(person, size = 's') {
+        return (
+          'https://i.imgur.com/' +
+          person.imageId +
+          size +
+          '.jpg'
+        );
+      }      
+
+      function Panel({ children }) {
+        const [open, setOpen] = React.useState(true);
+        return (
+          <section className="panel">
+            <button onClick={() => setOpen(!open)}>
+              {open ? 'Collapse' : 'Expand'}
+            </button>
+            {open && children}
+          </section>
+        );
+      }
+      
+      let currentPerson;
+
+      function Profile({ person }) {
+        currentPerson = person;
+        return (
+          <Panel>
+            <Header />
+            <Avatar />
+          </Panel>
+        )
+      }
+
+      function Header() {
+        return <h1>{currentPerson.name}</h1>;
+      }
+
+      function Avatar() {
+        return (
+          <img
+            className="avatar"
+            src={getImageUrl(currentPerson)}
+            alt={currentPerson.name}
+            width={50}
+            height={50}
+          />
+        );
+      }
+
+      function App() {
+        return (
+          <>
+            <Profile person={{
+              imageId: 'lrWQx8l',
+              name: 'Subrahmanyan Chandrasekhar',
+            }} />
+            <Profile person={{
+              imageId: 'MK3eW3A',
+              name: 'Creola Katherine Johnson',
+            }} />
+          </>
+        )
+      }
+      
+      const root = ReactDOM.createRoot(app)
+      root.render(<React.StrictMode><App /></React.StrictMode>)
+    </script>
+  </body>
+</html>
