@@ -19,3 +19,13 @@ src: ./pages/conteudo/jsx-listas/step-02.md
 ---
 src: ./pages/conteudo/jsx-listas/step-03.md
 ---
+
+---
+layout: center
+---
+
+# Exercícios
+
+- Exercício 11
+- Exercício 12
+- Exercício 13
