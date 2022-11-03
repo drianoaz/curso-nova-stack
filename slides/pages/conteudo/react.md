@@ -101,6 +101,10 @@ src: pages/conteudo/jsx-condicoes/entry.md
 src: pages/conteudo/jsx-listas/entry.md
 ---
 
+---
+src: pages/conteudo/jsx-componentes-puros/entry.md
+---
+
 
 ---
 layout: section
