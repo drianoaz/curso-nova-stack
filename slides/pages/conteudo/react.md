@@ -113,11 +113,18 @@ layout: section
 
 ## e isso tem seus problemas
 
-<!--
-- Não diz exatamente como as aplicações devem ser construídas, não resolve todas as dores mencionadas anteriormente
+---
+src: pages/conteudo/preocupacoes-web.md
+---
+
+---
+layout: center
+---
+
+- Não diz exatamente como as aplicações devem ser construídas
+- não resolve todas as dores mencionadas anteriormente
 - só dá algumas ferramentas, o resto você precisa se virar
 - Configurar uma aplicação do React do zero, na mão, exige bastante esforço e
 domínio de algumas ferramentas que não são relativamente tão simples de aprender
 como compiladores e bundlers (babel e webpack)
 - No passado, cada aplicação que a gente trabalhava resolvia problemas comuns de formas diferentes
--->
