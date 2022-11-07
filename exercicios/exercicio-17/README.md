@@ -1,35 +1,48 @@
-# Navegação de um e-commerce
+# Sistema de roteamentos
 
-Seu stakeholder quer que você desenvolva um site institucional chamado Mundo Geek.
+- Crie uma nova aplicação Next.js, utilizando o comando `npx create-next-app@latest`
+- A aplicação deve utilizar typescript e eslint
+- Crie uma pasta chamada `posts` dentro da pasta `pages`
+- Crie um arquivo chamado `first-post.tsx` dentro da pasta `posts` com o seguinte conteúdo:
 
-Esse site apenas exibirá uma lista com 5 produtos.
+```tsx
+export default function FirstPost() {
+  return <h1>First Post</h1>;
+}
+```
 
-A principal exigência do stakeholder é que você consiga navegar entre os produtos como se estivesse em um catálogo
+- Execute a aplicação em modo de desenvolvimento
+- Acesse a URL http://localhost:3000/posts/first-post
+- Verifique se a página está acessível
 
-Você deve utilizar as imagens fornecidas por ele.
+- Abra o arquivo `index.tsx` e faça o import do componente `Link`
 
-O time de branding exige que o site seja escuro.
+```tsx
+import Link from 'next/link';
+```
 
-O time de arquitetura exige que você faça o site utilizando Next.js
+- Procure e altere o código abaixo
 
-Aqui está a descrição das funcionalidades
+```diff
+<h1 className={styles.title}>
+-  Welcome to <a href="https://nextjs.org">Next.js!</a>
++  Read <Link href="/posts/first-post">this page!</Link>
+</h1>
+```
 
-## Home:
+- Edite o arquivo `pages/posts/first-post.js` e subtituia o conteúdo dele por esse:
 
-- O nome do site deverá ser claro, grande e centralizado
-- Abaixo do nome do site, deverá haver uma lista de produtos
-- Ao clicar no produto, você irá para uma página com detalhes desse produto
+```tsx
+import Link from 'next/link';
 
-## Página do produto
-
-- Como existe uma quantidade limitada de produtos, cada página produto deverá ter sua própria rota
-- A URL para acessar os produto deverá ser `/produtos/nome-do-produto`
-- Cada produto terá apenas uma imagem que deverá ter 500px de largura
-- As informações do produto deverão ser exibidas do lado direito da imagem
-- As informações que são necessárias são as seguintes:
-  - Nome do produto
-  - Preço
-- Você deverá inventar um nome para o produto e um preço para ele
-
-
-
+export default function FirstPost() {
+  return (
+    <>
+      <h1>First Post</h1>
+      <h2>
+        <Link href="/">Back to home</Link>
+      </h2>
+    </>
+  );
+}
+```
