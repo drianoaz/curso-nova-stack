@@ -80,5 +80,9 @@ src: ./pages/conteudo/nextjs-basics.md
 ---
 
 ---
+src: ./pages/conteudo/react-adding-interactivity.md
+---
+
+---
 src: ./pages/conteudo/nextjs-advanced.md
 ---
