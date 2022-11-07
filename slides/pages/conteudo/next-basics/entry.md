@@ -30,3 +30,31 @@ layout: center
 - Convenção para realizar a busca de dados
 - Formas de lidar com imagens
 - Possui o próprio ferramental de build
+
+---
+layout: center
+---
+
+<img src="/meme--clown.jpg" width="300" />
+
+<!--
+- Agora começou o conteúdo do curso
+-->
+
+---
+layout: section
+---
+
+# Começando com Next
+
+<br />
+
+```bash
+npx create-next-app@latest
+```
+
+<style>
+code {
+  @apply text-xl !important;
+}
+</style>

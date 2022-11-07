@@ -18,6 +18,7 @@ Uma visão prática sobre a nossa stack de front-end
 - Os exemplos começarão extremamente simples
 - Eles ficarão mais complexos conforme avançamos
 - Os conhecimentos das etapas anteriores serão utilizados nas próximas etapas. Não deixe eu avançar para a próxima etapa caso você tenha alguma dúvida
+- Certifiquem-se de que estão com a versão 16 do Node instalado na máquina
 
 ---
 
