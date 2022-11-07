@@ -4,7 +4,7 @@ layout: intro
 lineNumbers: true
 ---
 
-# Presentation title
+# Nosso amigo front-end
 
 Uma visão prática sobre a nossa stack de front-end
 
@@ -76,5 +76,9 @@ src: ./pages/conteudo/react.md
 
 
 ---
-src: ./pages/conteudo/nextjs.md
+src: ./pages/conteudo/nextjs-basics.md
+---
+
+---
+src: ./pages/conteudo/nextjs-advanced.md
 ---

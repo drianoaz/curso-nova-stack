@@ -10,6 +10,3 @@ src: pages/conteudo/next-routing/entry.md
 src: pages/conteudo/next-assets-metadata-css/entry.md
 ---
 
----
-src: pages/conteudo/next-how-works/entry.md
----

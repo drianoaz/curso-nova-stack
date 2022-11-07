@@ -124,6 +124,8 @@ layout: center
 # Exercício 19
 
 ---
+layout: center
+---
 
 # CSS Modules 💅
 
