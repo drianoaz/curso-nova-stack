@@ -86,6 +86,8 @@ layout: center
 
 <img src="/example--client-side-routing.gif" style="height:500px;">
 
+---
+layout: center
+---
 
-
-
+# Exercício 17
