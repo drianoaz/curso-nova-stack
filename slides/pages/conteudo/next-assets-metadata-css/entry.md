@@ -118,5 +118,61 @@ code {
 </style>
 
 ---
+layout: center
+---
 
 # Exercício 19
+
+---
+
+# CSS Modules 💅
+
+- Permite escrever CSS de várias formas
+- O jeito padrão é utilizando CSS Modules
+- Vamos aprender apenas o básico de CSS Modules porque não utilizamos isso
+- Nosso Design System utiliza stitches, que é uma ferramenta de CSS-IN-JS
+
+---
+layout: section
+---
+
+```css 
+/* Component.module.css */
+.container {
+  padding: 50px
+}
+
+.title {
+  font-size: 50px;
+}
+```
+
+<style>
+code {
+  @apply text-xl !important;
+}
+</style>
+
+---
+layout: section
+---
+
+
+```jsx 
+/* Component.tsx */
+import styles from 'Component.module.css'
+
+export default function Component() {
+  return (
+    <div className={styles.container}>
+      <h1 className={styles.title}>Título</h1>
+    </div>
+  );
+}
+```
+
+<style>
+code {
+  @apply text-xl !important;
+}
+</style>
