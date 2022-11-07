@@ -58,3 +58,71 @@ code {
   @apply text-xl !important;
 }
 </style>
+
+---
+layout: center
+---
+
+<img src="/example--nextjs-initial-folders.png" style="height:500px;">
+
+---
+layout: center
+---
+
+<img src="/example--nextjs-package-json.png" style="height:500px;">
+
+---
+layout: section
+---
+
+# Modo de desenvolvimento
+
+<br />
+
+```bash
+npm run dev
+```
+
+<style>
+code {
+  @apply text-xl !important;
+}
+</style>
+
+---
+layout: center
+---
+
+<img src="/example--nextjs-initial-page.png" style="height:500px;">
+
+---
+layout: center
+---
+
+# Sistema de roteamentos baseado em arquivos
+
+---
+layout: center
+---
+
+<img src="/example--nextjs-page.png" style="height:500px;">
+
+---
+layout: center
+---
+
+# As páginas são componentes React
+
+---
+layout: center
+---
+
+<img src="/example--nextjs-new-pages-01.png" style="height:500px;">
+
+---
+layout: center
+---
+
+<img src="/example--nextjs-new-pages-02.png" style="height:500px;">
+
+
