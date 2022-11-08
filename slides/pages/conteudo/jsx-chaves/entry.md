@@ -117,19 +117,19 @@ image: giphy--cat-typing.gif
 
 
 
-> ## [abre.ai/exercicio-02](https://abre.ai/exercicio-02)
+> ## exercicio-02
 > 
 > Corrija os erros existentes nesse arquivo
 
 <br />
 
-> ## [abre.ai/exercicio-03](https://abre.ai/exercicio-03)
+> ## exercicio-03
 > 
 > Deixe o conteúdo desse arquivo dinâmico
 
 <br />
 
-> ## [abre.ai/exercicio-04](https://abre.ai/exercicio-04)
+> ## exercicio-04
 > 
 > Faça a imagem ser exibida corretamente
 

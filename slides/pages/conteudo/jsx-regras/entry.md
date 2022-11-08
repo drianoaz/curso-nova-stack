@@ -55,7 +55,7 @@ image: giphy--cat-typing.gif
 
 Corrija os erros existentes nesse arquivo
 
-## [abre.ai/exercicio-01](https://abre.ai/exercicio-01)
+## exercicio-01
 
 <!-- 
 - caso não consigam acessar, enviar link correto

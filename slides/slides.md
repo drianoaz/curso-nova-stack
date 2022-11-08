@@ -9,6 +9,20 @@ lineNumbers: true
 Uma visão prática sobre a nossa stack de front-end
 
 ---
+layout: center
+---
+
+# Por que estamos aqui?
+
+- Compartilhar os aprendizados dos nossos últimos meses
+- Nivelar o conhecimento de todos
+- Tornar o time produtivo o mais rápido possível
+- Conseguirmos entregar o novo projeto no tempo que precisamos
+- Tornar nosso time mais unido
+
+---
+layout: center
+---
 
 # Recados importantes
 
@@ -19,16 +33,6 @@ Uma visão prática sobre a nossa stack de front-end
 - Eles ficarão mais complexos conforme avançamos
 - Os conhecimentos das etapas anteriores serão utilizados nas próximas etapas. Não deixe eu avançar para a próxima etapa caso você tenha alguma dúvida
 - Certifiquem-se de que estão com a versão 16 do Node instalado na máquina
-
----
-
-# Por que estamos aqui?
-
-- Compartilhar os aprendizados dos nossos últimos meses
-- Nivelar o conhecimento de todos
-- Tornar o time produtivo o mais rápido possível
-- Conseguirmos entregar o novo projeto no tempo que precisamos
-- Tornar nosso time mais unido
 
 ---
 layout: image-right
@@ -83,7 +87,7 @@ src: ./pages/conteudo/nextjs-basics.md
 src: ./pages/conteudo/react-adding-interactivity/entry.md
 ---
 
-# Como fazer deploy na Vercel? 👀
+# Typescript das ruas
 
 ---
 src: ./pages/conteudo/nextjs-advanced.md
