@@ -23,3 +23,16 @@
 - Quando o texto for exibido, você deverá também exibir um botão chamado `Limpar` que quando clicado
 deve remover o parágrafo da tela
 - Não se esqueça de o comportamento padrão do formulário 
+
+---
+
+# Faça uma request HTTP
+
+- Crie uma página chamada `data-fetch.tsx`
+- Essa página deverá exibir um botão com o texto `buscar posts`
+- Quando esse botão for clicado, você deverá fazer uma request HTTP GET para o endereço <https://jsonplaceholder.typicode.com/posts>
+- Utilize o fetch nativo do browser para fazer essa request
+- O resultado dessa request deverá ser exibida em uma lista 
+- Cada item dessa lista deverá exibir um botão chamado `remover item` que quando clicado, deverá apagar esse item da lista (apenas em memória)
+- Enquanto a request que busca os posts estiver pendente, você deverá exibir o texto `carregando...` na tela
+- Caso a request falhe, você deve exibir a mensagem `Ops... Algo deu errado` na tela

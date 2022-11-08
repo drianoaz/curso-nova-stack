@@ -83,6 +83,8 @@ src: ./pages/conteudo/nextjs-basics.md
 src: ./pages/conteudo/react-adding-interactivity/entry.md
 ---
 
+# Como fazer deploy na Vercel? 👀
+
 ---
 src: ./pages/conteudo/nextjs-advanced.md
 ---
