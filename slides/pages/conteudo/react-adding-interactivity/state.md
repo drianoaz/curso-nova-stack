@@ -255,5 +255,3 @@ layout: center
 ---
 
 # Exercício 21
-# Exercício 22
-# Exercício 23
