@@ -387,6 +387,8 @@ export default function Eventos() {
 ```
 
 ---
+layout: center
+---
 
 ## Passando informações para seus eventos
 

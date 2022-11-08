@@ -16,3 +16,7 @@ layout: center
 ---
 src: ./pages/conteudo/react-adding-interactivity/events.md
 ---
+
+---
+src: ./pages/conteudo/react-adding-interactivity/state.md
+---
